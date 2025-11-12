@@ -7,5 +7,5 @@ This repository includes scripts for performing joint association analyses that 
 3. Generation of phenotypes assuming varying degree of inbreeding\
    In this simulation, additive and dominance causal variants are selected independently, one for each effect type. The additive heritability and domiannce heritability are set to 15% and 1%, respectively. All other simulation settings follow those described in [the reference](link).  
 4. Association test\
-   The simulated phenotypes are jointly regressed on the additive and dominance genotypes. We computed marginal association statistics using OLS: $\frac{1}{n}X^{T}_{A, j}\mathbf{y}$ and $$ for each SNP $j$.
+   The simulated phenotypes are jointly regressed on the additive and dominance genotypes. We computed marginal association statistics using OLS: $\frac{1}{n}X^{T}_{A, j}\mathbf{y}$ and $\frac{1}{n}X^{T}_{D, j}\mathbf{y}$ for each SNP $j$.
    
