@@ -7,5 +7,5 @@ This repository includes scripts for performing joint association analyses that 
 3. Generation of phenotypes assuming varying degree of inbreeding depression:\
    In this simulation, additive and dominance causal variants are selected independently, five for each effect type. The additive heritability and domiannce heritability are set to 10% and 1%, respectively. All other simulation settings follow those described in [the reference](link).  
 4. Association tests:\
-   The simulated phenotypes are jointly regressed on the additive and dominance genotypes. Given the addivie and domiannce genotype vectors at SNP $j$ are $X_{A,j}$ and $X_{D,j}$, and sample size is $n$, we computed marginal association statistics using OLS: $\frac{1}{n}X_{A,j}^{T}\mathbf{y}$ and $\frac{1}{n}X_{D,j}^{T}\mathbf{y}$.
+   The simulated phenotypes are jointly regressed on the additive and dominance genotypes. Given the addivie and domiannce genotype vectors at SNP $j$ are $X_{A,j}$ and $X_{D,j}$, and sample size is $n$, we computed marginal association statistics using OLS, approximated by $\frac{1}{n}X_{A,j}^{T}\mathbf{y}$ and $\frac{1}{n}X_{D,j}^{T}\mathbf{y}$.
    
